@@ -1,0 +1,173 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+
+header {
+    background-color: #ffffff;
+    color: #121010;
+    padding: 20px 0;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    width: 75px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #000000;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+
+main {
+    padding: 20px 0;
+}
+
+.main .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+
+section {
+    margin-bottom: 30px;
+}
+
+section .container {
+    text-align: center;
+}
+
+section h2 {
+    margin-bottom: 10px;
+}
+
+section p {
+    margin-bottom: 20px;
+    width: 300px;
+}
+
+section .btn {
+    display: inline-block;
+    background-color: #09154F;
+    color: #ffffff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+section .btn:hover {
+    background-color: #31485A;
+}
+
+
+footer {
+    background-color: #31485A;
+    color: #ffffff;
+    padding: 20px 0;
+}
+
+footer .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer ul {
+    list-style: none;
+}
+
+footer ul li {
+    margin-bottom: 10px;
+}
+
+footer ul li a {
+    text-decoration: none;
+    color: #0b0a0a;
+}
+
+.lerem {
+    position: relative;
+    background: linear-gradient(225deg, #F76680 0%, #57007B 100%);
+    font-size: 30px;
+    width: 250px;
+    margin-top: -100px;
+    font-weight: 700;
+    z-index: 20;
+    margin-left: 30px;
+    color: white;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.lerm-txt {
+    background-color: antiquewhite;
+    display: flex;
+    margin-top: 50px;
+    padding-top: 20px;
+    gap: 150px;
+    justify-content: center;
+}
+
+.container-2 p{
+    width: 320px;
+}
+
+.container-2 a {
+    text-decoration: none;
+    display: flex;
+    color: white;
+    border: 1px solid black;
+    background-color: black;
+    width: 150px;
+    font-size: 15px;
+    margin-top: 20px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+}
+
+.container-2 h2 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.lerem-2 {
+    font-size: 30px;
+    font-weight: 700;
+    margin-left: 40px;
+    margin-bottom: 30px;
+}
